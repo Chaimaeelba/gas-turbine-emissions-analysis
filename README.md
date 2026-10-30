@@ -75,13 +75,6 @@ jupyter lab
 
 Then open `notebooks/gas_turbine_analysis.ipynb` and **Run All**. You can also download the original annual CSVs manually and place them in `dataset/` (see `dataset/README.md`). The notebook works when launched from either the project root or the `notebooks/` directory. The original cells and their saved visual outputs are preserved.
 
-## Methodological notes
-
-- IQR outliers are **statistical flags**, not automatically invalid readings or confirmed combustion faults.
-- Strong correlations among operating features (e.g., TEY, CDP, GTEP) do not establish causality.
-- The dataset describes **gas turbines**, not biomass combustion.
-- PCA, clustering, and Isolation Forest can be explored as **future extensions**; they are not implemented in this notebook.
-
 ## Author
 
 **Chaimae Elbahchoumi** — Data & AI Engineering, ENSA Khouribga.
